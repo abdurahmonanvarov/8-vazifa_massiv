@@ -179,6 +179,20 @@ console.log(changeElement([1,2,3,4,5,6,7,8]));
 console.log(deletIndex([1,2,3,4,5]));
  */
 
+//20-masala
+/**
+ * function repitElement(arr){
+    let arr1 = [];
+    for (let i = 0; i < arr.length; i++){
+        arr1.push(arr[i]);
+        arr1.push(arr[i]);
+    }
+    return arr1
+}
+console.log(repitElement([1,2,3,4,5]));
+ */
+
+
 //21-masala
 /**
  * function findBigElement(arr){
@@ -188,6 +202,71 @@ console.log(deletIndex([1,2,3,4,5]));
 console.log(findBigElement([1,2,3,4,5,6,7]));
  */
 
+//23-masala
+/**
+ * function urtachasi(arr){
+    let sum  = 0;
+    for (let i = 0; i < arr.length; i++){
+        sum = sum + arr[i];
+    }
+    return sum /2;
+}
+console.log(urtachasi([1,2,3,4,5]));
+ */
+
+
+//24-masala
+/**
+ * function teskari(arr){
+    arr.reverse();
+    return arr;
+}
+console.log(teskari([1,2,3,4]));
+ */
+
+
+//26-masala
+/**
+ * function repitElement(arr){
+    let arr1 = [];
+    for (let i = 0; i < arr.length; i++){
+        arr1.push(arr[i]);
+        arr1.push(arr[i]);
+    }
+    return arr1
+}
+console.log(repitElement([1,2,3,4,5]));
+ */
+
+//27-masala
+/**
+ * function cvadratTopish(arr){
+    let res =[];
+    for (let i = 0; i < arr.length; i++){
+        res =  arr[i]**i;
+    }
+    return res;
+}
+console.log(cvadratTopish([1,2,3]));
+ */
+
+//28-masala
+/**
+ * function deletElement(arr, element){
+    let res = arr.splice(element);
+    return res;
+}
+console.log(deletElement([1,2,3,4],1));
+ */
+
+//29-masala
+/**
+ * function findElement(arr, element){
+    let res = arr.includes(element);
+    return res;
+}
+console.log(findElement([1,2,3,4],7));
+ */
 //31-masala
 /**
  * function arry(arr){
